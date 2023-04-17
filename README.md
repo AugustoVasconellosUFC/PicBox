@@ -1,16 +1,18 @@
-# :checkered_flag: NOME DO PROJETO
+# :checkered_flag: PicBox
 
-Breve descrição do que o seu projeto faz.
+Um serviço de armazenamento de imagens online. Usuários podem criar contas para armazenar imagens. Imagens armazenadas podem ser compartilhadas através de links.
 
 ## :technologist: Membros da equipe
 
-Matrícula, nome e curso dos participantes.
+495915 - Augusto Vasconcellos. Ciências da Computação.
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Informe aqui os tipos de usuário que irão interagir com a aplicação. Ex: administrador, locador, locatario, usuário não logado.
+Usuário logado: tem acesso à sua própria galeria de imagens. Pode adicionar e remover imagens. Pode criar links para compartilhar imagens na galeria com outros usuários logados ou não-logados.
 
-> Tenha em mente que obrigatoriamente a aplicação deve possuir funcionalidades acessíveis a todos os tipos de usuário e outra funcionalidades restritas a certos tipos de usuários.
+Usuário não-logado: pode acessar imagens dentro do serviço através de links de compartilhamento gerados por usuários logados.
+
+Administrador: caso uma imagem compartilhada por um usuário logado seja reportada como inapropriada por usuários logados ou não-logados, o administrador pode, dependendo do seu julgamento, removê-la do site e, em casos piores, remover o usuário que as postou.
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
@@ -18,8 +20,11 @@ Liste as principais entidades do sistema.
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Descreve ou liste brevemente as principais funcionalidades da aplicação que será desenvolvida. Destaque a funcionalidades que serão acessévies a todos os usuários e aquelas restriras a usuários logados.
+Armazenar imagens: o usuário logado pode armazenar suas imagens em sua conta no site. Imagens podem ser adicionadas ou removidas da conta.
 
+Compartilhar imagens: o usuário logado pode gerar links para que certas imagens armazenadas em sua conta possam ser acessadas por usuários logados e não-logados.
+
+Reportar imagens: usuários logados e não logados podem reportar imagens inapropriadas compartilhadas por outros usuários.
 
 ----
 
